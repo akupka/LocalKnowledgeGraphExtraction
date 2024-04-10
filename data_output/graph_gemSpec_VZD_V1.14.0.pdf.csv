@@ -1,0 +1,171 @@
+chunk_id;node_1;node_2;edge
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;version: 1.14.0;The Spezifikation Verzeichnisdienst is referred to with a specific version number (1.14.0) in the context.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;revision: 434138;The Spezifikation Verzeichnisdienst has a specific revision number (434138) along with a version number.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;stand: 31.01.2022;The Spezifikation Verzeichnisdienst is associated with a certain date (31.01.2022), possibly indicating its status on that date.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;status: freigegeben;The Spezifikation Verzeichnisdienst has a specific status (freigegeben), which can be a significant indicator of its availability or usability.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;klassifizierung: öffentlich;The Spezifikation Verzeichnisdienst is classified as 'öffentlich', which can pertain to its accessibility or distribution restrictions.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;gemspec_vzd gemspec_vzd_v1.docx;The Spezifikation Verzeichnisdienst has a corresponding document file (gemSpec_VZD gemSpec_VZD_V1.docx) associated with it.
+bb5e7295144445d98aa395bb98ebd1c9;spezifikation verzeichnisdienst;dokumentenhistorie;The Spezifikation Verzeichnisdienst has a history of changes or revisions (Dokumentenhistorie), which can suggest evolvement or improvements over time.
+bb5e7295144445d98aa395bb98ebd1c9;änderungen zur vorversion;gemspec_vzd_v1.docx;The Änderungen zur Vorversion section refers to the document file gemSpec_VZD_V1.docx, possibly listing the changes from previous versions.
+bb5e7295144445d98aa395bb98ebd1c9;einarbeitung;gematik;The Einarbeitung refers to the incorporation or implementation of changes or provisions by the gematik organization.
+bb5e7295144445d98aa395bb98ebd1c9;änderungsliste;gematik;The Änderungsliste is associated with the gematik organization, which can be a document or procedure related to managing changes.
+fccf651661294faea9a65c96811723a0;spezifikation des verzeichnisdienstes;funktionalität, prozesse und schnittstellen;The Specification of the Directory Service contains the definition of the functionality, processes and interfaces
+fccf651661294faea9a65c96811723a0;spezifikation des verzeichnisdienstes;informationsmodell des vzd;The Specification of the Directory Service contains the definition of the information model of the VZD
+fccf651661294faea9a65c96811723a0;spezifikation des verzeichnisdienstes;anforderungen an die herstellung, test, betrieb, datenschutz and informationssicherheit des produkttyps vzd;The Specification of the Directory Service defines the requirements for the production, testing, operation, data protection and information security of the product type VZD
+fccf651661294faea9a65c96811723a0;vzd;zentraler dienst der ti-plattform;The VZD is a central service of the TI platform
+fccf651661294faea9a65c96811723a0;spezifikation des verzeichnisdienstes;produkttyp vzd;The Specification of the Directory Service defines the product type VZD
+fccf651661294faea9a65c96811723a0;anbieter und hersteller;verzeichnisdienste;The document is primarily intended for providers and manufacturers of directory services
+fccf651661294faea9a65c96811723a0;vzd;schnittstellen;The VZD provides interfaces
+fccf651661294faea9a65c96811723a0;produkttyp;bereitgestellte schnittstellen;The product type provides interfaces
+fccf651661294faea9a65c96811723a0;produkttyp;benutzte schnittstellen;The product type uses interfaces
+fccf651661294faea9a65c96811723a0;anforderungen;afo-id, titel der afo, text / beschreibung;Requirements are identified by an AFO-ID, title, and description
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;verzeichnisdienste;The VZD implements Verzeichnisdienste
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;täglich;The VZD performs actions on a daily basis
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;gültigkeitsprüfung des zertifikats;The VZD checks the validity of the certificate
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;ocsp-abfrage;The VZD performs an OCSP query
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;ungültige zertifikate;The VZD deletes invalid certificates
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;gültige ru-/tu-zertifikate;The VZD does not accept valid RU-/TU-certificates in PU
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;professionoid bzw. entrytype;The VZD checks for professionalOID or entryType when adding certificates
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;werte der attribute professionoid und entrytype;The VZD retains values of attributes professionOID and entryType
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;änderungen der verzeichnisdiensteinträge;The VZD logs and retains changes made to directory entries for 6 months
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;suchanfragen;The VZD does not store or log search queries
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;gelöschte daten;The VZD does not store copies of deleted data
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;private schlüssel;The VZD stores private keys securely and prevents reading to prevent manipulation
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;registrierungsdaten der fad;The VZD ensures the integrity and authenticity of stored registration data of FAD
+a93f6b15f6fd4c858049dd0f4b10a660;soap-fault;generische fehlercodes;The VZD uses generic error codes for its SOAP interface
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;lokale speicher;The VZD logs local and remote errors in its local storage
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;ipv4 and ipv6;The VZD supports IPv4 and IPv6
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;trust store;The VZD securely stores the contents of the TSL
+a93f6b15f6fd4c858049dd0f4b10a660;anbieter des vzd;erweiterbarkeit;The provider of the VZD guarantees its extensibility for accepting data of new applications
+a93f6b15f6fd4c858049dd0f4b10a660;anbieter des vzd;fachdaten neuer fachanwendungen;The provider of the VZD guarantees the recording of the Fachdaten of new applications
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;einträge;The VZD can store 1,000,000 entries
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;kom-le adressen;The VZD handles the addition and removal of KOM-LE addresses
+a93f6b15f6fd4c858049dd0f4b10a660;vzd;schnittstellen;The VZD uses the interfaces according to the table of PT_VZD_Schnittstellen
+31e4d69223c0428d8a2c4c3f0ed52a93;schnittstelle i_directory_administration;filteroptionen;Die Schnittstelle I_Directory_Administration unterstützt bestimmte Filteroptionen
+31e4d69223c0428d8a2c4c3f0ed52a93;filteroptionen;wildcard suche (*);Die Filteroptionen beinhalten eine Wildcard Suche
+31e4d69223c0428d8a2c4c3f0ed52a93;wildcard suche (*);parameter;Die Wildcard Suche kann in bestimmten Parametern angewendet werden
+31e4d69223c0428d8a2c4c3f0ed52a93;parameter;givenname - sn - cn - displayname - streetaddress - postalcode - countrycode - localityname - stateorprovincename - title - organization - othername - telematikid - specialization - domainid - holder - professionoid - maxkomleadr - changedatetimefrom - changedatetimeto;Die Parameter, in denen die Wildcard Suche angewendet werden kann, wurden genannt
+31e4d69223c0428d8a2c4c3f0ed52a93;schnittstelle i_directory_query;ldapv3-clients;Die Schnittstelle I_Directory_Query ermöglicht LDAPv3-Clients die Suche nach Daten
+31e4d69223c0428d8a2c4c3f0ed52a93;ldap client;verbindung zum vzd mittels ldaps sichern;Der LDAP Client muss die Verbindung zum VZD mittels LDAPS sichern
+31e4d69223c0428d8a2c4c3f0ed52a93;vzd;schittstelle i_directory_query;Der VZD muss die Schnittstelle I_Directory_Query anbieten
+31e4d69223c0428d8a2c4c3f0ed52a93;vzd;schnittstelle i_directory_maintenance;Der VZD muss die Schnittstelle I_Directory_Maintenance anbieten
+31e4d69223c0428d8a2c4c3f0ed52a93;schnittstelle i_directory_maintenance;operationen;Die Schnittstelle I_Directory_Maintenance beinhaltet bestimmte Operationen
+31e4d69223c0428d8a2c4c3f0ed52a93;operationen;add_directory_entry - read_directory_entry - modify_directory_entry - delete_directory_entry;Die Operationen wurden genannt
+6e0f8d0cd2b04d7db4c5c43777103451;i_directory_maintenance request elements;ldap-directory attributes;The I_Directory_Maintenance Request Elements are transformed to LDAP-Directory Attributes.
+6e0f8d0cd2b04d7db4c5c43777103451;ldap-directory attributes;i_directory_maintenance response elements;The LDAP-Directory Attributes are transformed to I_Directory_Maintenance Response Elements.
+6e0f8d0cd2b04d7db4c5c43777103451;givenname;givenname;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+6e0f8d0cd2b04d7db4c5c43777103451;sn;surname;The sn I_Directory_Maintenance Request Element is transformed to surname LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;cn;The otherName I_Directory_Maintenance Request Element is transformed to cn LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;displayname;The otherName I_Directory_Maintenance Request Element is transformed to displayName LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;givenname;The otherName I_Directory_Maintenance Request Element is transformed to givenname LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;sn;The otherName I_Directory_Maintenance Request Element is transformed to sn LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;surname;The otherName I_Directory_Maintenance Request Element is transformed to surname LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;cn;The otherName I_Directory_Maintenance Request Element can also be transformed to cn LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;othername;displayname;The otherName I_Directory_Maintenance Request Element can also be transformed to displayName LDAP-Directory Attribute.
+6e0f8d0cd2b04d7db4c5c43777103451;streetaddress;streetaddress;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+6e0f8d0cd2b04d7db4c5c43777103451;stateorprovincename;stateorprovincename;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+6e0f8d0cd2b04d7db4c5c43777103451;organization;organization;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+6e0f8d0cd2b04d7db4c5c43777103451;telematikid;telematikid;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+6e0f8d0cd2b04d7db4c5c43777103451;x509certificateenc;x509certificateenc;The same name is used in both I_Directory_Maintenance Request Element and LDAP-Directory Attribute with the same meaning.
+c9ceb7244d4a48889f9a8fad194aa7d7;modify_directory_entry;vzd;VZD is responsible for implementing the modify_Directory_Entry operation
+c9ceb7244d4a48889f9a8fad194aa7d7;modify_directory_entry;ldap directory;modify_Directory_Entry operation is performed on the LDAP Directory
+c9ceb7244d4a48889f9a8fad194aa7d7;soap request;modify_directory_entry;SOAP Request is used to modify data in modify_Directory_Entry operation
+c9ceb7244d4a48889f9a8fad194aa7d7;tuc_vzd_0004;modify_directory_entry;TUC_VZD_0004 defines the technical use case for modify_Directory_Entry operation
+c9ceb7244d4a48889f9a8fad194aa7d7;webservice;tuc_vzd_0004;Webservice is defined by TUC_VZD_0004 document
+c9ceb7244d4a48889f9a8fad194aa7d7;directorymaintenance.wsdl and directorymaintenance.xsd;webservice;DirectoryMaintenance.wsdl and DirectoryMaintenance.xsd define the Webservice
+c9ceb7244d4a48889f9a8fad194aa7d7;vzd;i_directory_application_maintenance;VZD must offer I_Directory_Application_Maintenance interface
+c9ceb7244d4a48889f9a8fad194aa7d7;fad;i_directory_application_maintenance;FADs are used in I_Directory_Application_Maintenance for creating, deleting, and modifying Fachdaten
+c9ceb7244d4a48889f9a8fad194aa7d7;tls-gesicherte verbindung;i_directory_application_maintenance;I_Directory_Application_Maintenance must be secured using TLS-gesicherte Verbindung
+c9ceb7244d4a48889f9a8fad194aa7d7;id.zd.tls-s;tls-gesicherte verbindung;ID.ZD.TLS-S is used for authentication in TLS-gesicherte Verbindung
+c9ceb7244d4a48889f9a8fad194aa7d7;ocsp;tls-gesicherte verbindung;OCSP is used for checking the validity of certificates in TLS-gesicherte Verbindung
+c9ceb7244d4a48889f9a8fad194aa7d7;fachdienst;fad;Fachdienste are associated with FADs in I_Directory_Application_Maintenance
+c25e85434e094890a6ca1537b0dfa0a8;webservice (soap);directoryapplicationmaintenance.wsdl und directoryapplicationmaintenance.xsd;defined by
+c25e85434e094890a6ca1537b0dfa0a8;webservice (rest);directory_application_maintenance.yaml;defined by
+c25e85434e094890a6ca1537b0dfa0a8;ldapv3-attributes;abb_vzd_logisches_datenmodell;described by
+c25e85434e094890a6ca1537b0dfa0a8;vzd;tip1-a_5587, tip1-a_5589, a_21466, a_21467, 4.3.1 operation getinfo, 4.3.2 operation add_directory_fa-attributes;related to
+c25e85434e094890a6ca1537b0dfa0a8;fad;tip1-a_5588, tip1-a_5589, tip1-a_5591, tip1-a_5592-03;related to
+c25e85434e094890a6ca1537b0dfa0a8;i_directory_application_maintenance;tip1-a_5587, tip1-a_5588, tip1-a_5589, tip1-a_5591, a_21467, 4.3.1 operation getinfo, 4.3.2 operation add_directory_fa-attributes;related to
+c25e85434e094890a6ca1537b0dfa0a8;webservice- or ldapv3-schnittstelle;tip1-a_5588;related to
+c25e85434e094890a6ca1537b0dfa0a8;oauth2-dienst;a_21466;related to
+c25e85434e094890a6ca1537b0dfa0a8;accesstoken;a_21467;related to
+c25e85434e094890a6ca1537b0dfa0a8;getinfo operation;4.3.1 operation getinfo;same as
+c25e85434e094890a6ca1537b0dfa0a8;add_directory_fa-attributes operation;4.3.2 operation add_directory_fa-attributes;same as
+ccbd572b377d443a913c83785fc31dcc;fad;basisdatensatz;The FAD checks if a corresponding Basisdatensatz exists for a Telematik-ID. If it does not exist, the FAD sends an error message.
+ccbd572b377d443a913c83785fc31dcc;fad;fachdatensatz;The FAD can create a new Fachdatensatz if it does not exist, and it can delete or update an existing Fachdatensatz for a Telematik-ID.
+ccbd572b377d443a913c83785fc31dcc;fad;request;The FAD can receive and send requests and responses, including add_Directory_FA-Attributes, modify_Directory_FA-Attributes, and delete_Directory_FA-Attributes requests.
+ccbd572b377d443a913c83785fc31dcc;vzd;ldaps-verbindungsaufbau;The VZD must establish an LDAPS-Verbindungsaufbau for the FAD.
+ccbd572b377d443a913c83785fc31dcc;vzd;add-request;The VZD receives an Add-Request from the FAD.
+ccbd572b377d443a913c83785fc31dcc;vzd;response operation;The VZD sends an Response Operation to the FAD's Add-Request.
+ccbd572b377d443a913c83785fc31dcc;vzd;kom-le_version;The VZD checks the KOM-LE_Version in the Operation Request against a list of valid values. If the value is invalid, the VZD sends a constraintViolation response.
+ccbd572b377d443a913c83785fc31dcc;vzd;kom-le adresse;The VZD ensures that each KOM-LE Adresse is attached to only one VZD-Eintrag.
+ccbd572b377d443a913c83785fc31dcc;tls;verbindung;The FAD and VZD can establish a TLS-Verbindung for communication.
+ccbd572b377d443a913c83785fc31dcc;soap-request;deletedirectoryfaattributes;The FAD sends a deleteDirectoryFAAttributes request to the VZD to delete a Fachdaten-Eintrag.
+ccbd572b377d443a913c83785fc31dcc;soap-response;responsemsg;The VZD sends a responseMsg containing the status of the deleteDirectoryFAAttributes request to the FAD.
+a3fdfc8ec30043fe881ce858a559e3ff;gematik soap-fault response;fehlerfälle;A gematik SOAP-Fault Response is sent when there are errors during the processing of the SOAP Request. The specific error scenarios are defined with faultcodes and faultstrings.
+a3fdfc8ec30043fe881ce858a559e3ff;fehlerfälle;protokollspezifische fehlermeldungen;The Fehlerfälle are represented by protocol-specific error messages, such as TCP, HTTP, or TLS.
+a3fdfc8ec30043fe881ce858a559e3ff;operation;fehlerhaft ausgeführt;When an operation is executed incorrectly, the faultstring 'Operation fehlerhaft ausgeführt' is used.
+a3fdfc8ec30043fe881ce858a559e3ff;fachdaten konnten nicht gelöscht werden;fehler im verzeichnisdienst;When there are errors deleting Fachdaten due to issues with the Verzeichnisdienst, the faultstring 'Fachdaten konnten nicht gelöscht werden (Fehler im Verzeichnisdienst)' is used.
+a3fdfc8ec30043fe881ce858a559e3ff;delete_directory_fa-attributes (ldapv3);vzd;The VZD is responsible for implementing delete_Directory_FA-Attributes (LDAPv3) according to specific guidelines, including handling cases when no matching Basisdatensatz is found, deleting Fachdatensätze associated with a Telematik-ID, and utilizing specific Fehlermeldungen.
+a3fdfc8ec30043fe881ce858a559e3ff;fad;tuc_vzd_0009;The FAD must support the technical use case TUC_VZD_0009, which includes delete_Directory_FA-Attributes(LDAPv3) according to the Tab_TUC_VZD_0009.
+a3fdfc8ec30043fe881ce858a559e3ff;delete_directory_fa-attributes (ldapv3);name, beschreibung, vorbedingungen, eingangsdaten, komponenten, ausgangsdaten, standardablauf, aktionen, fehlerfälle;The delete_Directory_FA-Attributes (LDAPv3) operation includes details such as Name, Beschreibung, Vorbedingungen, Eingangsdaten, Komponenten, Ausgangsdaten, Standardablauf, Aktionen, and Fehlerfälle that describe its behavior and interaction with other components.
+a3fdfc8ec30043fe881ce858a559e3ff;vzd;umsetzung delete_directory_fa-attributes (rest);The VZD must implement delete_Directory_FA-Attributes following specific guidelines, such as handling cases when no matching Basisdatensatz is found and sending appropriate HTTP-Statuscodes.
+a3fdfc8ec30043fe881ce858a559e3ff;fad;tuc_vzd_0013;The FAD must support the technical use case TUC_VZD_0013, which includes delete_Directory_FA-Attributes according to Tab_TUC_VZD_0013.
+a3fdfc8ec30043fe881ce858a559e3ff;modify_directory_fa-attributes;vzd, fad, soap, ldapv3, fa, kom-le, vzd_tab_i_directory_application_maintenance_modify_mapping;The modify_Directory_FA-Attributes operation can be implemented using SOAP, LDAPv3, or REST, involving components such as VZD, FAD, FA, KOM-LE, and VZD_TAB_I_Directory_Application_Maintenance_Modify_Mapping specifications.
+e00b20b5d8aa4d1598485d87aff00410;modify_directory_fa-attributes(ldapv3);tuc_vzd_0011;specified as a use case in
+e00b20b5d8aa4d1598485d87aff00410;modify_directory_fa-attributes(ldapv3);tabelle 21: tab_tuc_vzd_0011;has a related table
+e00b20b5d8aa4d1598485d87aff00410;modify_directory_fa-attributes(ldapv3);rfc4511;follows the standards of
+e00b20b5d8aa4d1598485d87aff00410;ldap client des fad;modify_directory_fa-attributes(ldapv3);involves the use of
+e00b20b5d8aa4d1598485d87aff00410;vzd;modify_directory_fa-attributes(ldapv3);interacts with
+e00b20b5d8aa4d1598485d87aff00410;http-statuscode;rest;used in
+e00b20b5d8aa4d1598485d87aff00410;modify_directory_fa-attributes (rest);rest;implemented as
+e00b20b5d8aa4d1598485d87aff00410;modify_directory_fa-attributes (rest);http-statuscode;uses
+e00b20b5d8aa4d1598485d87aff00410;fad;tuc_vzd_0014;related to
+e00b20b5d8aa4d1598485d87aff00410;fad;modify_directory_fa-attributes (rest);involved in
+e00b20b5d8aa4d1598485d87aff00410;tls-verbindung;vzd;related to
+e00b20b5d8aa4d1598485d87aff00410;le;vzd;has a mandate for deletion by
+e00b20b5d8aa4d1598485d87aff00410;zulässige organisationen;schnittstelle i_directory_administration;allowed to use
+b4bc6604e933452a980ee29850194d2d;vzd;spezifikation verzeichnisdienst;The VZD is required to implement the Spezifikation Verzeichnisdienst according to certain guidelines.
+b4bc6604e933452a980ee29850194d2d;spezifikation verzeichnisdienst;operation getinfo;The Spezifikation Verzeichnisdienst includes an Operation called getInfo.
+b4bc6604e933452a980ee29850194d2d;operation getinfo;rest-request get;The Operation getInfo is a REST-Request GET.
+b4bc6604e933452a980ee29850194d2d;operation getinfo;metadaten;The Operation getInfo delivers the Metadaten of the OpenAPI Spezifikation.
+b4bc6604e933452a980ee29850194d2d;vzd;add_directory_entry operation;The VZD is required to implement the add_Directory_Entry Operation.
+b4bc6604e933452a980ee29850194d2d;add_directory_entry operation;ldap-verzeichnis;The add_Directory_Entry Operation is used to create a new entry in the LDAP-Verzeichnis.
+b4bc6604e933452a980ee29850194d2d;add_directory_entry operation;distinguished name;The add_Directory_Entry Operation uses the Distinguished Name.
+b4bc6604e933452a980ee29850194d2d;vzd;directoryentry administration;The VZD is responsible for the Pflege der Basiseinträge (Verzeichnisdienst_Eintrag) in the DirectoryEntry Administration.
+16c0011aec834c7c836c7efc336e76ac;vzd;operation 'modify_directory_entry';The VZD must implement the 'modify_Directory_Entry' operation
+16c0011aec834c7c836c7efc336e76ac;vzd;operation 'delete_directory_entry';The VZD must implement the 'delete_Directory_Entry' operation
+16c0011aec834c7c836c7efc336e76ac;parameter 'uid';operation 'modify_directory_entry';The 'uid' parameter identifies the directory service entry to be updated
+16c0011aec834c7c836c7efc336e76ac;parameter 'uid';operation 'delete_directory_entry';The 'uid' parameter identifies the directory service entry to be deleted
+16c0011aec834c7c836c7efc336e76ac;operation 'modify_directory_entry';attribut 'holder';The 'holder' attribute must be checked by the VZD before updating the directory entry
+16c0011aec834c7c836c7efc336e76ac;operation 'modify_directory_entry';access_token claim scope;The ACCESS_TOKEN claim scope must be checked by the VZD before updating the directory entry
+16c0011aec834c7c836c7efc336e76ac;operation 'delete_directory_entry';attribut 'holder';The 'holder' attribute must be checked by the VZD before deleting the directory entry
+53f799e77ebc46c0b410b6e0a42163f9;vzd;operation «delete_directory_entry»;The VZD must implement the 'delete_Directory_Entry' operation
+53f799e77ebc46c0b410b6e0a42163f9;operation «delete_directory_entry»;stored directory entry;The operation checks the attributes of the stored directory entry
+53f799e77ebc46c0b410b6e0a42163f9;stored directory entry;attribute 'holder';The 'holder' attribute in the stored directory entry is checked
+53f799e77ebc46c0b410b6e0a42163f9;attribute 'holder';value of the access_token claim scope;The value of the 'holder' attribute is compared to the value of the ACCESS_TOKEN claim scope
+53f799e77ebc46c0b410b6e0a42163f9;vzd;operation «add_directory_entry_certificate»;The VZD must implement the 'add_Directory_Entry_Certificate' operation
+53f799e77ebc46c0b410b6e0a42163f9;operation «add_directory_entry_certificate»;existing base data set;The operation adds a certificate entry to an existing base data set
+53f799e77ebc46c0b410b6e0a42163f9;existing base data set;ldap directory;The base data set is part of the Ldap directory
+53f799e77ebc46c0b410b6e0a42163f9;operation «read_directory_certificates»;zertifikatseinträge;The operation reads the Zertifikatseinträge from the Ldap directory
+53f799e77ebc46c0b410b6e0a42163f9;zertifikatseinträge;filter parameters;The Zertifikatseinträge are filtered based on the filter parameters
+53f799e77ebc46c0b410b6e0a42163f9;filter parameters;uid, certificateentryid, telematikid;The filter parameters can be uid, certificateEntryID, telematikID
+108762d0a67f4b4697d37b9345e5af3c;vzd;paging mechanismus;The VZD must ensure that the 'holder' search parameter contains the same value as the ACCESS_TOKEN claim scope, the pagingSize does not exceed the maximum size as per TIP1-A_5552, and the search parameters do not change during paging (with multiple Request/Response sequences). If there are deviations from these specifications, the VZD must respond with an error (HTTP- Status-Code 403).
+108762d0a67f4b4697d37b9345e5af3c;client of the interface i_directory_administration;tls-verbindung;The client of the interface I_Directory_Administration must use a TLS-Verbindung with server-side authentication. It must check the server certificate of the VZD. If the result is negative, the connection attempt must be aborted.
+108762d0a67f4b4697d37b9345e5af3c;vzd;logisches datenmodell;The VZD must implement the logical data model as shown in Abb_VZD_logisches_Datenmodell and Tab_VZD_Datenbeschreibung. It must ensure that an entry only contains certificates from the trust environment of the TI with the same Telematik-ID.
+108762d0a67f4b4697d37b9345e5af3c;hba-eintrag;givenname;The givenName is optional for the HBA-Eintrag, it is taken over from the certificate by the VZD.
+108762d0a67f4b4697d37b9345e5af3c;vzd;ldap-directory;The VZD must recognize the LDAP-Directory fields such as givenName, sn, cn, streetAddress etc. and take them over from the certificate or generate default values if necessary.
+108762d0a67f4b4697d37b9345e5af3c;hba eintrag;cn;The cn is obligatory for the HBA Eintrag, it is taken over from the certificate by the VZD and used for searching and displaying entries.
+108762d0a67f4b4697d37b9345e5af3c;leistungserbringerorganisationen;specialization;The specialization can occur multiple times for the Leistungserbringerorganisationen, the value range corresponds to the defined values for XDS (e.g.: urn:psc:1.3.6.1.4.1.19376.3.276.1.5.4:ALLG for general medicine).
+db9cf8cea2ff407c95018d11f28e5487;vzd;basisdaten;The VZD uses Basisdaten as part of its data structure
+db9cf8cea2ff407c95018d11f28e5487;vzd;fachdaten;The VZD uses Fachdaten as part of its data structure
+db9cf8cea2ff407c95018d11f28e5487;vzd;datenstruktur komledata;The VZD uses Datenstruktur komLeData as part of its data structure
+db9cf8cea2ff407c95018d11f28e5487;im zertifikat enthaltene oid (extension admission, attribut professionoid);professionoid;The im Zertifikat enthaltene OID (Extension Admission, Attribut ProfessionOID) is used to automatically enter the ProfessionOID
+db9cf8cea2ff407c95018d11f28e5487;im jeweiligen zertifikat enthaltene telematik-id (feld registrationnumber der extension admission);telematikid;The im jeweiligen Zertifikat enthaltene Telematik-ID (Feld registrationNumber der Extension Admission) is used to populate the telematikID
+db9cf8cea2ff407c95018d11f28e5487;mail adresse;komledata eintrag;Each Mail Adresse corresponds to one komLeData Entry
+db9cf8cea2ff407c95018d11f28e5487;eintragstyp;professionoid;The Eintragstyp is mapped to the ProfessionOID
+db9cf8cea2ff407c95018d11f28e5487;leistungserbringer- institution;betriebsstätte;Leistungserbringer- institution can have multiple Betriebsstätte
+db9cf8cea2ff407c95018d11f28e5487;gematik;betriebsstätte;gematik can have multiple Betriebsstätte
+22a0c4380d6c4ba78d3e9f38359c3b00;vzd;fachanwendungsspezifischer dienst;The VZD is responsible for implementing a configurable mapping from professionOID to entryType for fachanwendungsspezifischer Diensts.
+22a0c4380d6c4ba78d3e9f38359c3b00;fachanwendungsspezifischer dienst;professionoid;fachanwendungsspezifischer Dienst has a professionOID which is mapped to entryType by VZD
+22a0c4380d6c4ba78d3e9f38359c3b00;vzd;entrytype;VZD is responsible for mapping professionOID to entryType
+22a0c4380d6c4ba78d3e9f38359c3b00;gesamtbetriebsverantwortlicher der ti;change;Gesamtbetriebsverantwortlicher der TI initiates a change in the mapping of professionOID to entryType
